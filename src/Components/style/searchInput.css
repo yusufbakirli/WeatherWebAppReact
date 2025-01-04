@@ -1,0 +1,44 @@
+.searchContainer {
+    background-color: rgb(205, 255, 255);
+    padding: 15px;
+}
+
+.headerText {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.search-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(205, 255, 255);
+}
+
+input {
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    border: none;
+    color: black;
+    font-size: 25px;
+    transition: all 0.05s ease;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    border: none;
+    width: 130px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #13b6d3;
+    color: #ffff;
+
+}

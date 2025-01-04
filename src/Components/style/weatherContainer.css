@@ -1,0 +1,42 @@
+.weatherContainer {
+    margin-top: 80px;
+    padding: 15px;
+}
+
+.w_week {
+    padding: 10px;
+}
+
+.weatherListWeekly {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: auto;
+}
+
+.wearger {
+    background-color: rgb(136, 227, 227);
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    border-radius: 15px;
+    transition: all 0.05s ease-in;
+}
+
+.wearger:hover {
+    padding: 12px;
+    cursor: pointer;
+}
+
+.w_icon {
+    height: 50px;
+    width: 50px;
+}
+
+span {
+    margin: 2px;
+    font-size: 20px;
+    font-weight: 500;
+}
